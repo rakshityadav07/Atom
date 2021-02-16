@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgLady"
+        android:layout_width="wrap_content"
+        android:layout_height="395dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/atomlady"
+        android:padding="5dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/rounded_button"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Make meditation a \nhabit you Love"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSignInWithGoogle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/rounded_button"
+        android:text="Continue with google" />
+
+    <Button
+        android:id="@+id/btnSignInWithEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/rounded_button"
+        android:text="Continue with Email" />
+
+    <Button
+        android:id="@+id/btnSignInWithGuest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/rounded_button"
+        android:text="Continue with Guest" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:autoLink="web"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="By creating an account you agree to our Terms of \nServices and Privay Policy"
+        android:textColor="@color/black"
+        android:focusable="true" />
+
+
+</LinearLayout>
